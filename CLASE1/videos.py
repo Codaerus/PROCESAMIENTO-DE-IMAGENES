@@ -7,8 +7,11 @@ while cap.isOpened():
 	ret, frame = cap.read()
 	if ret:
 		cv2.imshow("ventana video", frame)
-		if cv2.waitKey(1) == 97:
+		val = cv2.waitKey(1)
+		if val == 97:
 			break
+		if val == 98:
+			cv2.imwrite("img1.jpg",frame)
 	else:
 		break
 cap.release()
