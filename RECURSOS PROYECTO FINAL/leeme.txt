@@ -1,1 +1,3 @@
 Son videos para aplicar templates, hough y watershed
+Ajuntar en una carpeta drive los codigos
+Recursos: https://drive.google.com/drive/folders/1ffXRYtyQXyl1i7GNJhm1pS5SH6M1omy6?usp=sharing
